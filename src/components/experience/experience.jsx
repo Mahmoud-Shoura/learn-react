@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
 
@@ -24,7 +24,7 @@ const experience = () => {
               <BsPatchCheckFill className="experience-details-icon" />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
 
@@ -65,13 +65,13 @@ const experience = () => {
         {/* end of frontend */}
 
         <div className="experience-backend">
-          <h3>Backend Development</h3>
+          <h3>Things I know</h3>
           <div className="experience-content">
             <article className="experience-details">
               <BsPatchCheckFill className="experience-details-icon" />
               <div>
                 <h4>Node JS</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Basic</small>
               </div>
             </article>
 
@@ -83,27 +83,27 @@ const experience = () => {
               </div>
             </article>
 
-            <article className="experience-details">
+            {/* <article className="experience-details">
               <BsPatchCheckFill className="experience-details-icon" />
               <div>
                 <h4>PHP</h4>
                 <small className="text-light">Intermediate</small>
               </div>
-            </article>
+            </article> */}
 
-            <article className="experience-details">
+            {/* <article className="experience-details">
               <BsPatchCheckFill className="experience-details-icon" />
               <div>
                 <h4>MySQL</h4>
                 <small className="text-light">Basic</small>
               </div>
-            </article>
+            </article> */}
 
             <article className="experience-details">
               <BsPatchCheckFill className="experience-details-icon" />
               <div>
                 <h4>Python</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Basic</small>
               </div>
             </article>
 
