@@ -28,7 +28,7 @@
 .about-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
+    gap: 0.5rem;
 }
 
 .about-card {
@@ -96,7 +96,7 @@
 
     .about-cards {
         grid-template-columns: 1fr 1fr;
-        gap: 1rem;
+        gap: .5rem;
     }
 
     .about-content {

@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./about.css";
 import ME from "../../assets/IMG_20231213_134339.jpg";
 import { FaAward } from "react-icons/fa";
@@ -39,13 +39,18 @@ const about = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
-            itaque ipsa consectetur totam eum. At recusandae corrupti maiores,
-            aliquam nulla saepe in dignissimos dolorum natus, eius iusto
-            mollitia sapiente? Error.
+            I am a passionate individual embarking on a journey to master
+            front-end development. With a keen eye for design and a fascination
+            for user interfaces, he is diving headfirst into the world of HTML,
+            CSS, and JavaScript. i am understands the importance of creating
+            seamless user experiences and is eager to learn the latest
+            frameworks and libraries such as React. Armed with determination and
+            a hunger for knowledge, he spends hours honing his skills,
+            experimenting with code, and building projects to showcase his
+            progress.
           </p>
           <a href="#contact" className="btn btn-primary">
-            Let's Talk
+            Let&rsquo;s Talk
           </a>
         </div>
       </div>

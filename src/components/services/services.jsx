@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./services.css";
 import { BiCheck } from "react-icons/bi";
 
@@ -17,23 +17,23 @@ const services = () => {
           <ul className="service-list">
             <li>
               <BiCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Conducting thorough research to understand the needs.</p>
             </li>
             <li>
               <BiCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Creating wireframes and prototypes to visualize.</p>
             </li>
             <li>
               <BiCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p> Designing visually appealing interfaces.</p>
             </li>
             <li>
               <BiCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Defining how users interact with the interface.</p>
             </li>
             <li>
               <BiCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Conducting usability tests with real users to evaluate.</p>
             </li>
           </ul>
         </article>
@@ -46,27 +46,29 @@ const services = () => {
           <ul className="service-list">
             <li>
               <BiCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p> Creating the visual and interactive parts of websites.</p>
             </li>
             <li>
               <BiCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Ensuring that websites adapt and display.</p>
             </li>
             <li>
               <BiCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p> Building the server-side logic, databases, and APIs.</p>
             </li>
             <li>
               <BiCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Optimizing websites for speed and efficiency.</p>
             </li>
             <li>
               <BiCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Implementing security measures such as encryption.</p>
             </li>
             <li>
               <BiCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>
+                Using version control systems like Git to manage code changes.
+              </p>
             </li>
           </ul>
         </article>
@@ -79,23 +81,23 @@ const services = () => {
           <ul className="service-list">
             <li>
               <BiCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Conducting thorough research to understand the target.</p>
             </li>
             <li>
               <BiCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Developing high-quality, engaging.</p>
             </li>
             <li>
               <BiCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Optimizing content for search engines.</p>
             </li>
             <li>
               <BiCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Strategically promoting content through various channels.</p>
             </li>
             <li>
               <BiCheck className="service-list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Monitoring and analyzing the performance.</p>
             </li>
           </ul>
         </article>
