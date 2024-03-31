@@ -1,6 +1,6 @@
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
-import { MdOutlineMessage } from "react-icons/md";
+// import { MdOutlineMessage } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
 import emailjs from "emailjs-com";
 import { useRef as UseRef } from "react";
@@ -31,7 +31,7 @@ const contact = () => {
               Send a message
             </a>
           </article>
-          <article className="contact-option">
+          {/* <article className="contact-option">
             <MdOutlineMessage className="contact-option-icon" />
             <h4>Messenger</h4>
             <h5>محممود حامد</h5>
@@ -41,7 +41,7 @@ const contact = () => {
             >
               Send a message
             </a>
-          </article>
+          </article> */}
           <article className="contact-option">
             <BsWhatsapp className="contact-option-icon" />
             <h4>WhatsApp</h4>
