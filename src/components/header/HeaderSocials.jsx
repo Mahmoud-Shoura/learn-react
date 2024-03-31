@@ -9,7 +9,7 @@ const HeaderSocials = () => {
       <a href="https://linkedin.com" target="__blank">
         <FaLinkedin />
       </a>
-      <a href="https://github.com" target="__blank">
+      <a href="https://github.com/Mahmoud-Shoura" target="__blank">
         <FaGithub />
       </a>
       <a href="https://dribble.com" target="__blank">
