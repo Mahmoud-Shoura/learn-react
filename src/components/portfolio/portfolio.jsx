@@ -35,7 +35,7 @@ const data = [
     image: IMG4,
     title: "Tailwind-Project",
     github: "https://github.com/Mahmoud-Shoura/tailwind-1",
-    demo: "https://main--tailwind-project22.netlify.app/",
+    demo: "https://tailwind-project-mhs.netlify.app/",
   },
   {
     id: 5,
