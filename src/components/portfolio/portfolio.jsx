@@ -3,7 +3,7 @@ import "./portfolio.css";
 import IMG1 from "../../assets/Edusity.png";
 import IMG2 from "../../assets/Autumn.png";
 import IMG3 from "../../assets/shopper-mhs.png";
-import IMG4 from "../../assets/portfolio4.jpg";
+import IMG4 from "../../assets/tailwind-project.png";
 import IMG5 from "../../assets/portfolio5.png";
 import IMG6 from "../../assets/portfolio6.jpg";
 import IMG7 from "../../assets/Gym-Website.png";
@@ -33,9 +33,9 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title: "Maintaining tasks and tracking progress",
-    github: "https://github.com",
-    demo: "https://dribble.com/shots/16955822-Maintaining-tasks-and-tracking-progress",
+    title: "Tailwind-Project",
+    github: "https://github.com/Mahmoud-Shoura/tailwind-1",
+    demo: "https://main--tailwind-project22.netlify.app/",
   },
   {
     id: 5,
