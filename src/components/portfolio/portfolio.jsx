@@ -2,7 +2,7 @@
 import "./portfolio.css";
 import IMG1 from "../../assets/Edusity.png";
 import IMG2 from "../../assets/Autumn.png";
-import IMG3 from "../../assets/portfolio3.jpg";
+import IMG3 from "../../assets/shopper-mhs.png";
 import IMG4 from "../../assets/portfolio4.jpg";
 import IMG5 from "../../assets/portfolio5.png";
 import IMG6 from "../../assets/portfolio6.jpg";
@@ -26,9 +26,9 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: "Figma dashboard UI Kit for data design web apps",
-    github: "https://github.com",
-    demo: "https://dribble.com/shots/17290917-Eclipse-Figma-dashbord-UI-Kit-for-data-design-web-apps",
+    title: "Full E-commerce Front-end",
+    github: "https://github.com/Mahmoud-Shoura/full-e-commerce",
+    demo: "https://shopper-mhs.netlify.app/",
   },
   {
     id: 4,
