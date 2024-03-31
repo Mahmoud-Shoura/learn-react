@@ -1,7 +1,7 @@
 // import React from "react";
 import CV from "../../assets/my CV .pdf";
 
-const Cta = () => {
+const CTA = () => {
   return (
     <div className="cta">
       <a href={CV} download className="btn">
@@ -14,4 +14,4 @@ const Cta = () => {
   );
 };
 
-export default Cta;
+export default CTA;
