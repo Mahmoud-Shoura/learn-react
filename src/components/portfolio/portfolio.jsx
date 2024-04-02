@@ -5,7 +5,7 @@ import IMG2 from "../../assets/Autumn.png";
 import IMG3 from "../../assets/shopper-mhs.png";
 import IMG4 from "../../assets/tailwind-project.png";
 import IMG5 from "../../assets/MHS-site.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+import IMG6 from "../../assets/animated-portfolio.png";
 import IMG7 from "../../assets/Gym-Website.png";
 
 const data = [
@@ -47,9 +47,9 @@ const data = [
   {
     id: 6,
     image: IMG6,
-    title: "Charts templates & infographics in Figma",
-    github: "https://github.com",
-    demo: "https://dribble.com/shots/15887665-Orion-UI-Kit-Charts-templates-infogaphics-in-Figma",
+    title: "Responciv Animated portfolio with react & framer motion",
+    github: "https://github.com/Mahmoud-Shoura/animated-portfolio",
+    demo: "https://chic-stroopwafel-7c93af.netlify.app/",
   },
   {
     id: 7,
