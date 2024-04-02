@@ -12,14 +12,14 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "University Website Edusity",
+    title: "Responciv University Website Edusity",
     github: "https://github.com/Mahmoud-Shoura/Edusity",
     demo: "https://edusity-dc265.web.app/",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Autumn Shoping Website only front-end",
+    title: "Responciv Autumn Shoping Website only front-end using React hooks",
     github: "https://github.com/Mahmoud-Shoura/Ecommerce-Shop",
     demo: "https://autumn-ee78e.web.app/",
   },
@@ -33,14 +33,14 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title: "Tailwind-Project",
+    title: "Responciv Tailwind-Project",
     github: "https://github.com/Mahmoud-Shoura/tailwind-1",
     demo: "https://tailwind-project-mhs.netlify.app/",
   },
   {
     id: 5,
     image: IMG5,
-    title: "MHS-Bootstrap Website",
+    title: "Responciv MHS-Bootstrap Website using owl cursor",
     github: "https://github.com/Mahmoud-Shoura/portfolio-website-MHS",
     demo: "https://master--portfolio-website-mhs.netlify.app/",
   },
@@ -54,7 +54,7 @@ const data = [
   {
     id: 7,
     image: IMG7,
-    title: "Gym Website",
+    title: "Responciv Gym Website, Multiple pages",
     github: "https://github.com",
     demo: "https://danger-gym-6fd24.web.app/",
   },
