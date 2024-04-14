@@ -39,15 +39,10 @@ const about = () => {
           </div>
 
           <p>
-            I am a passionate individual embarking on a journey to master
-            front-end development. With a keen eye for design and a fascination
-            for user interfaces, he is diving headfirst into the world of HTML,
-            CSS, and JavaScript. i am understands the importance of creating
-            seamless user experiences and is eager to learn the latest
-            frameworks and libraries such as React. Armed with determination and
-            a hunger for knowledge, he spends hours honing his skills,
-            experimenting with code, and building projects to showcase his
-            progress.
+            My name is Mahmoud Hamed, a 23-year-old front-end developer. I began
+            my journey in programming by studying C and C++ languages before
+            diving into HTML, CSS, and JavaScript. Later on, I shifted my focus
+            to React, where I honed my skills to develop full-fledged projects.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let&rsquo;s Talk
