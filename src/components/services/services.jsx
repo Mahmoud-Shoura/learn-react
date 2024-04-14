@@ -54,7 +54,9 @@ const services = () => {
             </li>
             <li>
               <BiCheck className="service-list-icon" />
-              <p> Building the server-side logic, databases, and APIs.</p>
+              <p>
+                Implement responsive design for optimal viewing across devices.
+              </p>
             </li>
             <li>
               <BiCheck className="service-list-icon" />
@@ -62,7 +64,10 @@ const services = () => {
             </li>
             <li>
               <BiCheck className="service-list-icon" />
-              <p>Implementing security measures such as encryption.</p>
+              <p>
+                Integrate animations and transitions for enhanced user
+                experience.
+              </p>
             </li>
             <li>
               <BiCheck className="service-list-icon" />
