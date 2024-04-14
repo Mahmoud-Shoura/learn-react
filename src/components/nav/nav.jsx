@@ -1,51 +1,79 @@
-// import React from "react";
+import { useState, useEffect } from "react";
 import "./nav.css";
-import { AiOutlineHome } from "react-icons/ai";
-import { AiOutlineUser } from "react-icons/ai";
-import { BiBook } from "react-icons/bi";
+import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
+import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
-import { BiMessageSquareDetail } from "react-icons/bi";
-import { useState } from "react";
+import { Link } from "react-scroll";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      console.log("Scroll Top:", scrollTop);
+      if (scrollTop === 0) {
+        setActiveNav("#home");
+      } else {
+        setActiveNav("");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  console.log("Active Nav:", activeNav);
+
   return (
     <nav>
-      <a
-        href="#"
-        onClick={() => setActiveNav("#")}
-        className={activeNav === "#" ? "active" : ""}
+      <Link
+        to="home"
+        spy={true}
+        smooth={true}
+        duration={500}
+        activeClass="active"
       >
         <AiOutlineHome />
-      </a>
-      <a
-        href="#about"
-        onClick={() => setActiveNav("#about")}
-        className={activeNav === "#about" ? "active" : ""}
+      </Link>
+      <Link
+        to="about"
+        spy={true}
+        smooth={true}
+        duration={500}
+        activeClass="active"
       >
         <AiOutlineUser />
-      </a>
-      <a
-        href="#experience"
-        onClick={() => setActiveNav("#experience")}
-        className={activeNav === "#experience" ? "active" : ""}
+      </Link>
+      <Link
+        to="experience"
+        spy={true}
+        smooth={true}
+        duration={500}
+        activeClass="active"
       >
         <BiBook />
-      </a>
-      <a
-        href="#services"
-        onClick={() => setActiveNav("#services")}
-        className={activeNav === "#services" ? "active" : ""}
+      </Link>
+      <Link
+        to="services"
+        spy={true}
+        smooth={true}
+        duration={500}
+        activeClass="active"
       >
         <RiServiceLine />
-      </a>
-      <a
-        href="#contact"
-        onClick={() => setActiveNav("#contact")}
-        className={activeNav === "#contact" ? "active" : ""}
+      </Link>
+      <Link
+        to="contact"
+        spy={true}
+        smooth={true}
+        duration={500}
+        activeClass="active"
       >
         <BiMessageSquareDetail />
-      </a>
+      </Link>
     </nav>
   );
 };
