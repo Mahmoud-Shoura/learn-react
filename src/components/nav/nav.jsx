@@ -11,7 +11,6 @@ const Nav = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
-      console.log("Scroll Top:", scrollTop);
       if (scrollTop === 0) {
         setActiveNav("#home");
       } else {

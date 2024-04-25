@@ -1,5 +1,5 @@
 // import React from "react";
-import ME from "../../assets/tinywow_change_bg_photo_46435020.png";
+import ME from "../../assets/me-4.png";
 import HeaderSocial from "./HeaderSocials";
 import "./header.css";
 import CTA from "./cta";

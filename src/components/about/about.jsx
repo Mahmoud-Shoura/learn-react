@@ -1,6 +1,6 @@
 // import React from "react";
 import "./about.css";
-import ME from "../../assets/IMG_20231213_134339.jpg";
+import ME from "../../assets/me-3-fotor-bg-remover-2024042512710.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
