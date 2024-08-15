@@ -7,6 +7,7 @@ import IMG4 from "../../assets/tailwind-project.png";
 import IMG5 from "../../assets/MHS-site.png";
 import IMG6 from "../../assets/animated-portfolio.png";
 import IMG7 from "../../assets/Gym-Website.png";
+import IMG8 from "../../assets/nestcare.png";
 
 const data = [
   {
@@ -55,8 +56,15 @@ const data = [
     id: 7,
     image: IMG7,
     title: "Responciv Gym Website, Multiple pages",
-    github: "https://github.com",
+    github: "https://github.com/Mahmoud-Shoura/responsiveModernReactWebsite",
     demo: "https://danger-gym-6fd24.web.app/",
+  },
+  {
+    id: 8,
+    image: IMG8,
+    title: "NestCare Website, ",
+    github: "https://github.com/Mahmoud-Shoura/NestCare",
+    demo: "https://nestcare.netlify.app/",
   },
 ];
 
